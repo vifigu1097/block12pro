@@ -21,7 +21,7 @@
 }
 nav{
     text-align: left;
-    font-style: oblique;
+    font-style: unset;
     border-style: groove;
     font-size: large;
     color: skyblue;
@@ -49,9 +49,10 @@ header {
  }
  h1{
     border-style: groove;
-    font-style: oblique;
+   font-style: oblique;
     border-radius: 100%;
     color: skyblue;
+    text-align: center;
  }
  h5 {
     border-style: groove;
@@ -65,8 +66,32 @@ header {
     border-radius: 100%;
     color: skyblue;
  }
+.form1{
+    background-color: blue;
+    margin: 0;
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    height: 450px;
+}
+.img1 {
+    background-color: blue;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    z-index: 3;
+}
 
- 
+
+ h2 {
+    border-style: groove;
+    font-style: oblique;
+    border-radius: 100%;
+    color: skyblue;
+ }
 
 
 

@@ -1,0 +1,89 @@
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+    width: 500px;
+}
+.topnav a {
+    color: skyblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+}
+.topnav a:hover {
+    background-color:salmon;
+    border-style: groove;
+}
+.topnav a.active {
+    color: salmon;
+    border-style: dashed;
+}
+nav{
+    text-align: left;
+    font-style: oblique;
+    border-style: groove;
+    font-size: large;
+    color: skyblue;
+}
+header {
+    width: 100%;
+}
+
+ body {
+    padding: 0;
+    margin: 0;
+
+ }
+ .box{
+    width: 450px;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    height: 450px;
+ }
+ .box-img{
+    height: 200px;
+   width: 200px;
+ }
+ h1{
+    border-style: groove;
+    font-style: oblique;
+    border-radius: 100%;
+    color: skyblue;
+ }
+ h5 {
+    border-style: groove;
+    font-style: oblique;
+    border-radius: 100%;
+    color: skyblue;
+ }
+ p {
+    border-style: groove;
+    font-style: oblique;
+    border-radius: 100%;
+    color: skyblue;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ <section>
+ <section class="box1">
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, eligendi, voluptas, nam architecto provident labore at necessitatibus doloribus id pariatur harum ratione porro ducimus ipsam officiis amet iusto quo fuga.
+     </p>
+ </section> 
+ <section>
+ <section class="box2">
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, eligendi, voluptas, nam architecto provident labore at necessitatibus doloribus id pariatur harum ratione porro ducimus ipsam officiis amet iusto quo fuga.
+     </p>   
+ </section>    

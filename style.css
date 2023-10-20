@@ -45,6 +45,7 @@ header {
  .box-img{
     height: 200px;
    width: 200px;
+   border-radius: 80%;
  }
  h1{
     border-style: groove;

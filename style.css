@@ -31,14 +31,17 @@ header {
 }
 
  body {
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
 
  }
  .box{
     width: 450px;
     background-color: blue;
-    padding: 20px;
+    padding: 0;
     text-align: center;
     height: 450px;
  }
@@ -53,6 +56,8 @@ header {
     border-radius: 100%;
     color: skyblue;
     text-align: center;
+    margin: 0;
+    padding: 0;
  }
  h5 {
     border-style: groove;
@@ -63,7 +68,7 @@ header {
  p {
     border-style: groove;
     font-style: oblique;
-    border-radius: 100%;
+    border-radius: 120%;
     color: skyblue;
  }
 .form1{
@@ -92,7 +97,12 @@ header {
     border-radius: 100%;
     color: skyblue;
  }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
